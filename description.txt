@@ -1,0 +1,9 @@
+Associação - sabe sobre o elemento, não há vínculo de posse, existem de forma independente
+    Exemplo: Aluno e professor sabem da existência um do outro mas existem sem posse ou vínculo
+Agregação - tem a posse parcial, pode existir sem o outro elemento
+    Exemplo: Um departamento pode existir sem professores, mas pode ter professores
+            e professor por existir sem departamento
+Composição - tem a posse do outro elemento, se destruir a possuídor então o possuído também é destruído
+    Exemplo: Um livro possui capítulos, então capítulos tem um possuídor que é um livro. Caso um livro
+            seja destruído então os capítilos também são destruídos
+
